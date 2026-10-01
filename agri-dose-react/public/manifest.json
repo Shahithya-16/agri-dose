@@ -1,0 +1,14 @@
+{
+  "name": "AgriDose - Fertilizer & Pesticide Calculator",
+  "short_name": "AgriDose",
+  "description": "Calculate fertilizer and pesticide dosage, scan leaf diseases, and get farming advice in English or Tamil.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5F5",
+  "theme_color": "#2C5F2D",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
