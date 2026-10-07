@@ -616,3 +616,36 @@ button{font-family:inherit;}
 
 /* Disease tab camera/upload buttons */
 .photo-btn-row{ display:flex; gap:10px; margin-top:8px; }
+
+/* ---------- Mobile layout (dashboard) ---------- */
+@media (max-width:768px){
+  .app-shell{ flex-direction:column; }
+
+  .sidebar{
+    width:100%;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+    padding:12px 14px;
+  }
+  .sidebar .brand-mark{ margin-bottom:0; }
+  .stamp-badge{ width:44px; height:44px; }
+
+  .nav-group{ flex-direction:row; flex-wrap:wrap; gap:6px; width:100%; }
+  .nav-group .grp-lbl{ display:none; }
+  .nav-item{ width:auto; padding:8px 10px; font-size:13px; }
+
+  .sidebar-foot{
+    margin-top:0; width:100%;
+    display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+    border-top:1px dashed rgba(255,255,255,.14); padding-top:10px;
+  }
+  .user-chip{ margin-bottom:0; }
+  .logout-btn{ width:auto; padding:8px 12px; }
+
+  .topbar{ padding:16px 16px; }
+  .content{ padding:20px 16px 90px; }
+  .card{ padding:18px; }
+  .history-item{ flex-wrap:wrap; gap:6px; }
+}
